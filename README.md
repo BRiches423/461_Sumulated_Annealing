@@ -5,10 +5,10 @@
 ### Language Chosen Python
 
 # Notes for file structure:
-Please just use the files in the SA_Project folder. Files are as follows, the final bag lists ready to be inserted into a dataframe, are in ouput1 ouput2 and ouput3.  The details of each annealing epoch are in stats1 stats2 and stats3.  
+Please just use the files in the SA_Project folder. Files are as follows, the final bag lists ready to be inserted into a dataframe, are in ouput1 ouput2 and ouput3.  The details of each annealing epoch are in stats(1) stats(2) and stats(3).  
 1 = Geometric cooling with a .9 rate, 2 = Geometric with at .85 rate, 3 = modified linear.
 
-In SA_Project, main.py runs the entire algoritm, but it won't output a new file unless you uncomment the final line, it is set to use a geometric cooling of 0.9 but that can be changed by changing the comments. As well Graphs.py displays all of the graphs from the data I created.  
+In SA_Project, main.py runs the entire algoritm, it is set to use a geometric cooling of 0.9 but that can be changed by changing the comments. As well Graphs.py displays some nice graphs showing the progress from epoch to epoch in data I created.  
 
 If you would like to see everything in a beautiful Jupyter Notebook, please use the "Simulated Annealing.ipynb" file. 
 
